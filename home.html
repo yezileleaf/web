@@ -3,37 +3,153 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>index</title>
+<script src="js/jquery1.83.min.js"></script>
 <style>
 *{margin:0; padding:0; list-style:none; }
-body{ background:#eeeeee;font:normal 12px/22px "微软雅黑";  }
+body{ background:url(images/c_03.jpg) repeat;font:normal 12px/22px "微软雅黑";  }
 img{ border:0;  }
 a{ text-decoration:none; color:#000;  }
 a:hover{ color:red;  }
 .clear { clear:both;}
 .dn { display:none;}
-.article { width:1024px; height:768px; padding-top:60px; margin:0 auto; background:url(images/b_06.jpg) left bottom no-repeat;}
-.top { width:450px; box-sizing:border-box; padding-top:57px; padding-left:350px; background:url(images/b_03.jpg) 200px top no-repeat; height:354px;}
-.article ul { overflow:hidden; padding-left:200px; padding-top:28px; font-size:18px;}
-.article li { float:left; margin-right:60px; }
-.article li a { color:#fff; font-weight:bold;}
-.top p { font-size:84px; color:#505050; line-height:82px; font-weight:bold;}
-.top a { display:block; width:230px; height:52px; border-radius:52px; text-align:center; line-height:52px; color:#fff; background:#005982;}
+.cont { background:url(images/bg.jpg) center no-repeat; height:1415px; width:1000px; margin:0 auto; position:relative;}
+.tit-1 { width:170px; height:86px; position:absolute; left:157px; top:508px; cursor:pointer}
+.tit-2 { width:170px; height:44px; position:absolute; top:504px; right:55px; cursor:pointer}
+.tit-3 { width:150px; height:80px; position:absolute; top:915px; left:75px; cursor:pointer}
+.tit-6 { width:253px; height:40px; position:absolute; top:996px; left:340px; cursor:pointer}
+.tit-4 { width:170px; height:80px; position:absolute; top:925px; right:100px; cursor:pointer}
+.tit-5 { width:197px; height:45px; position:absolute; left:25px; top:1180px; cursor:pointer;}
+.cont-1 { position:absolute; left:46px; top:230px;}
+.cont-1 li { overflow:hidden; margin-bottom:30px;}
+.cont-1 .txt { float:left; margin-left:25px; color:#fff;}
+.cont-1 img { float:left; margin-top:8px;}
+.cont-1 .txt h2 { font-size:16px; font-weight:normal;}
+.cont-1 .txt p { font-size:16px;}
+.cont-2 { overflow:hidden; color:#fff; position:absolute; right:32px; top:206px;}
+.cont-2 ul { float:left}
+.cont-2 ul li { line-height:40px;}
+.cont-2 .list-1 { border-right:1px solid #fff; text-align:center; padding-right:12px; font-size:16px; font-weight:bold;}
+.cont-2 .list-2 { padding-left:15px; font-weight:bold; font-size:16px;}
+.cont-3 { position:absolute; left:35px; top:1010px;}
+.cont-3 li { float:left; width:77px;text-align:center; font-size:12px; font-weight:normal; color:#fff;}
+.cont-3 li h2 { font-weight:normal; font-size:12px;}
+.cont-4 { position:absolute; left:50px; top:1237px; color:#fff; line-height:32px; text-indent:35px;}
+.cont-4 .email { background:url(images/a_64.jpg) left center no-repeat;}
+.cont-4 .phone { background:url(images/a_68.jpg) left center no-repeat;}
+.cont-4 .gzh { background:url(images/a_72.jpg) left center no-repeat;}
+.cont-4 .wechat { background:url(images/a_80.jpg) left center no-repeat;}
+.cont-4 .weibo { background:url(images/a_85.jpg) left center no-repeat;}
+.cont-5 { position:absolute; left:375px; top:1060px; font-weight:normal;}
+.cont-5 h2 { font-weight:normal;}
+.cont-5 li { overflow:hidden; margin-bottom:10px;}
+.cont-5 img { float:left; width:80px; margin-right:6px; margin-top:8px;}
+.cont-5 .txt { float:left; color:#fff;}
+.cont-6 { width:170px; position:absolute; right:115px; top:1020px;}
+.cont-6 ul { overflow:hidden;}
+.cont-6 img { width:75px; height:75px;}
+.cont-6 li { width:50%; float:left; text-align:center; line-height:30px;}
+.cont-6 p { color:#fff;}
+.icon { position:absolute; left:400px; top:157px; transition:all 0.4s;}
+.icon:hover { transform:scale(1.1)}
+
 </style>
 </head>
 <body>
-	<div class="article">
-    	<div class="top">
-        	<p>KEEP</p>
-            <p>ME</p>
-            <p>REAL</p>
-            <a href="index.html">点击了解我的详情</a>
-        </div>
+
+<div class="cont">
+	<img class="icon" src="images/photo.png" />
+	<div class="tit-1"></div>
+    <div class="tit-2"></div>
+    <div class="tit-3"></div>
+    <div class="tit-4"></div>
+    <div class="tit-5"></div>
+    <div class="tit-6"></div>
+    <div class="cont-1 dn">
         <ul>
-        	<li><a href="home.html">首页</a></li>
-            <li><a href="index.html">简介</a></li>
-            <li><a href="albm.html">详情</a></li>
-            <li><a href="">关于</a></li>
+            <li><img src="images/a_03.jpg" width="85" height="29" /><div class="txt"><h2>OF COURSE Creative programming </h2><p>想当然｜创意编程工作坊（上海）</p></div></li>
+            <li><img src="images/a_06.jpg" width="85" height="29" /><div class="txt"><h2>开合传媒有限公司（厦门）</h2><p>｜视觉设计师</p></div></li>
+            <li><img src="images/a_08.jpg" width="85" height="29" /><div class="txt"><h2>浙江日报温州分社</h2><p>｜运营中心助理</p></div></li>
+            <li><img src="images/a_10.jpg" width="85" height="29" /><div class="txt"><h2>杭州广播电视台</h2><p>｜导演助理</p></div></li>
         </ul>
     </div>
+    <div class="cont-2 dn">
+    	<ul class="list-1">
+        	<li>平面设计</li>
+            <li>交互设计</li>
+            <li>动态视效</li>
+            <li>视频剪辑</li>
+            <li>片头设计</li>
+            <li>创意编程</li>
+            <li>三维图像设计</li>
+        </ul>
+        <ul class="list-2">
+        	<li>AR增强显示</li>
+            <li>VR引擎</li>
+            <li>招贴艺术</li>
+            <li>网页设计</li>
+            <li>商业摄影</li>
+            <li>数字媒体研究</li>
+            <li>动态影像设计</li>
+        </ul>
+    </div>
+    <div class="cont-3 dn">
+    	<ul>
+        	<li><img src="images/a_14.jpg" height="33" /><h2>Writing</h2><p>文字</p></li>
+            <li><img src="images/a_17.jpg" height="33" /><h2>Technology</h2><p>工艺</p></li>
+            <li><img src="images/a_19.jpg" height="33" /><h2>Creating</h2><p>创意</p></li>
+            <br/>
+            <li><img src="images/a_34.jpg" height="26" /><h2>Photography</h2><p>摄影</p></li>
+            <li><img src="images/a_36.jpg" height="26" /><h2>Pencraft</h2><p>书法</p></li>
+            <li><img src="images/a_38.jpg" height="26" /><h2>After Effect</h2><p>后期制作</p></li>
+        </ul>
+    </div>
+  <div class="cont-4 dn">
+    	<p class="email">417602751.qq.com</p>
+        <p class="phone">13695971996（福建）</p>
+        <p class="gzh">个人公众号｜叶子乐</p>
+        <p class="wechat">微信｜yezileleaf</p>
+        <p class="weibo">微博|Ziiile</p>
+    </div>
+    <div class="cont-5 dn">
+    	<ul>
+        	<li><img src="images/a_30.jpg" width="80" height="26" /><div class="txt"><h2>院学生会宣传部干事</h2><p>策划校友歌会</p></div></li>
+            <li><img src="images/a_42.jpg" width="80" height="26" /><div class="txt"><h2>艺术设计系团总支宣传部长</h2><p>主策划大型装置<异色>活动</p></div></li>
+            <li><img src="images/a_54.jpg" width="80" height="26" /><div class="txt"><h2>中日韩国际茶道交流70周年</h2><p>被邀请为中国代表队</p><p>赴日本长崎大学进行茶道交流</p></div></li>
+            <li><img src="images/a_66.jpg" width="79" height="26" /><div class="txt"><h2>IME摄影大赛总决赛</h2><p>获最佳人气第六名</p></div></li>
+            <li><img src="images/a_77.jpg" width="80" height="26" /><div class="txt"><h2>2016台湾国际学生创意设计大赛 </h2><p>视觉设计奖</p></div></li>
+        </ul>
+    </div>
+    <div class="cont-6 dn">
+    	<ul>
+        	<li><img src="images/a_22.jpg"/><p>|处理后期</p></li>
+            <li><img src="images/a_24.jpg"/><p>|视觉处理</p></li>
+            <li><img src="images/a_47.jpg"/><p>|三维动画</p></li>
+            <li><img src="images/a_50.jpg"/><p>|视频特效</p></li>
+            <li><img src="images/a_60.jpg"/><p>|视频剪辑</p></li>
+            <li><img src="images/a_61.jpg"/><p>|游戏引擎</p></li>
+        </ul>
+    </div>
+</div>
+<script>
+	$('.tit-1').click(function(){
+		$('.cont-1').toggle(500);
+	})
+	$('.tit-2').click(function(){
+		$('.cont-2').toggle(500);
+	})
+	$('.tit-3').click(function(){
+		$('.cont-3').toggle(500);
+	})
+	$('.tit-4').click(function(){
+		$('.cont-6').toggle(500);
+	})
+	$('.tit-5').click(function(){
+		$('.cont-4').toggle(500);
+	})
+	$('.tit-6').click(function(){
+		$('.cont-5').toggle(500);
+	})
+
+</script>
 </body>
 </html>
